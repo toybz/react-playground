@@ -1,1 +1,38 @@
 @import '~antd/dist/antd.css';
+
+.app-layout{
+    flex-direction: row;
+}
+
+.ant-layout-header,
+.ant-layout-footer {
+    color: #fff;
+    background: #7dbcea;
+}
+[data-theme="dark"] .ant-layout-header {
+    background: #6aa0c7;
+}
+[data-theme="dark"] .ant-layout-footer {
+    background: #6aa0c7;
+}
+.ant-layout-footer {
+    line-height: 1.5;
+}
+.ant-layout-sider {
+    color: #fff;
+    line-height: 120px;
+    background: #3ba0e9;
+    height: available;
+
+}
+[data-theme="dark"] .ant-layout-sider {
+    background: #3499ec;
+}
+.ant-layout-content {
+    min-height: 120px;
+
+
+}
+[data-theme="dark"] .ant-layout-content {
+    background: #107bcb;
+}
